@@ -1,0 +1,5 @@
+@host = http://localhost:8080/api/petshop/email/enviar/andre.robielo@hotmail.com/devnovais@gmail.com/teste/emailteste
+
+###
+
+{{host}}
