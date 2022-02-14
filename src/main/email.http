@@ -1,5 +1,16 @@
-@host = http://localhost:8080/api/petshop/email/enviar/andre.robielo@hotmail.com/devnovais@gmail.com/teste/emailteste
+@host = http://localhost:8080/api/petshop/email/enviar
+
+
+
 
 ###
+POST {{host}}
+Content-Type: application/json
 
-{{host}}
+
+{
+    "assuntoPadrao": "Contato Cliente",
+    "remetente": "lnovais833@gmail.com",
+    "assunto": "Valor do serviço",
+    "corpoEmail": "Boa tarde!\n\nMe chamo Novais e gostaria de saber o valor do banho e tosa.\n\nAtenciosamente: Lucas da Silva Novais."
+}
